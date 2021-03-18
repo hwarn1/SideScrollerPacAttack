@@ -9,7 +9,7 @@ function setup() {
 
   img = loadImage("pacman.png");
   img2 = loadImage("rock(ghost).png")
-  bgd = loadImage("assets/pacmaze.png")
+  bgd = loadImage("pacmaze.png")
   man = new Person(img);
   rock = new Obstacle(img2);
 
