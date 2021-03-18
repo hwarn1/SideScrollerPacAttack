@@ -115,7 +115,7 @@ function game() {
   //point of view around "man"
   translate((-man.pos.x + 50), 0);
 
-  let gravity = createVector(0, 1);
+  let gravity = createVector(0, 0.8);
   man.applyForce(gravity);
 
 
